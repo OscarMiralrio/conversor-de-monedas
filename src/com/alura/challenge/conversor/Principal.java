@@ -1,8 +1,8 @@
 package com.alura.challenge.conversor;
 
-import com.google.gson.FieldNamingPolicy;
+import com.alura.challenge.conversor.modelos.Converse;
+import com.alura.challenge.conversor.service.Service;
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 import java.io.IOException;
 import java.net.URI;
@@ -13,29 +13,9 @@ import java.net.http.HttpResponse;
 public class Principal {
     public static void main(String[] args) {
 
-        Gson gson = new GsonBuilder()
-                .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
-                .setPrettyPrinting()
-                .create();
+        Service service = new Service();
 
-        String apiKey = "22652200d377ea7e3d5df5fd";
-        String url = "https://v6.exchangerate-api.com/v6/" + apiKey + "/latest/USD";
-
-        try {
-            HttpClient client = HttpClient.newHttpClient();
-
-            HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create(url))
-                    .build();
-
-            HttpResponse<String> response = client
-                    .send(request, HttpResponse.BodyHandlers.ofString());
-            String json = response.body();
-
-            System.out.println(json);
-        } catch (IOException | InterruptedException e) {
-            e.getMessage();
-        }
+        System.out.println(service.obtineValoresConversion(""));
 
     }
 }

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15450841-0e12-444d-8fca-e5cd77edffd2" name="Changes" comment="carga inical">
+    <list default="true" id="15450841-0e12-444d-8fca-e5cd77edffd2" name="Changes" comment="se agrega libreria Gson y se crea la conexion con la API">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/challenge/conversor/modelos/Converse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/challenge/conversor/modelos/ConversionRates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/challenge/conversor/service/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conversor-de-monedas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/conversor-de-monedas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/alura/challenge/conversor/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/challenge/conversor/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -29,21 +33,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "OscarMiralrio"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OscarMiralrio&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/OscarMiralrio/conversor-de-monedas.git",
-    "accountId": "29d1859c-b1b7-4df2-9644-c79db1d1f3a2"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/OscarMiralrio/conversor-de-monedas.git&quot;,
+    &quot;accountId&quot;: &quot;29d1859c-b1b7-4df2-9644-c79db1d1f3a2&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2gl4YmbOdVWG4HZVMFrON9DBfC5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,6 +58,7 @@
   "keyToString": {
     "Application.Principal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "task__conversor__monedas",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/CURSO ALURA - ONE/Java Orientado a Objetos G6 - ONE/Java - consumir API, escribir archivos y manejar errores/gson-2.10.1.jar",
@@ -79,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716258962707</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="se agrega libreria Gson y se crea la conexion con la API">
+      <option name="closed" value="true" />
+      <created>1716260393625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716260393625</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="carga inical" />
-    <option name="LAST_COMMIT_MESSAGE" value="carga inical" />
+    <MESSAGE value="se agrega libreria Gson y se crea la conexion con la API" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agrega libreria Gson y se crea la conexion con la API" />
   </component>
 </project>
