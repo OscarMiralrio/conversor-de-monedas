@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15450841-0e12-444d-8fca-e5cd77edffd2" name="Changes" comment="se agrega libreria Gson y se crea la conexion con la API">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/challenge/conversor/modelos/Converse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/challenge/conversor/modelos/ConversionRates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/challenge/conversor/service/Service.java" afterDir="false" />
+    <list default="true" id="15450841-0e12-444d-8fca-e5cd77edffd2" name="Changes" comment="Se genera metodo para la obtencion de los valores de conversión por base_code">
+      <change afterPath="$PROJECT_DIR$/src/com/alura/challenge/conversor/utilerias/EventLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/alura/challenge/conversor/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/challenge/conversor/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/challenge/conversor/modelos/Converse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/challenge/conversor/modelos/Converse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/challenge/conversor/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/challenge/conversor/service/Service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Principal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -92,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716260393625</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se genera metodo para la obtencion de los valores de conversión por base_code">
+      <option name="closed" value="true" />
+      <created>1716262725790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716262725790</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="carga inical" />
     <MESSAGE value="se agrega libreria Gson y se crea la conexion con la API" />
-    <option name="LAST_COMMIT_MESSAGE" value="se agrega libreria Gson y se crea la conexion con la API" />
+    <MESSAGE value="Se genera metodo para la obtencion de los valores de conversión por base_code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se genera metodo para la obtencion de los valores de conversión por base_code" />
   </component>
 </project>

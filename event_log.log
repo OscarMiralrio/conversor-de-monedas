@@ -1,0 +1,14 @@
+may 21, 2024 12:48:24 A. M. com.alura.challenge.conversor.utilerias.EventLogger logEvent
+INFO: Converse[base_code=USD, target_code=ARS, conversion_rate=864.75, conversion_result=864.75]
+may 21, 2024 12:48:29 A. M. com.alura.challenge.conversor.utilerias.EventLogger logEvent
+INFO: Converse[base_code=ARS, target_code=USD, conversion_rate=0.001156, conversion_result=0.002312]
+may 21, 2024 12:49:27 A. M. com.alura.challenge.conversor.utilerias.EventLogger logEvent
+INFO: Converse[base_code=USD, target_code=BRL, conversion_rate=5.1057, conversion_result=15.3171]
+may 21, 2024 12:49:30 A. M. com.alura.challenge.conversor.utilerias.EventLogger logEvent
+INFO: Converse[base_code=USD, target_code=BRL, conversion_rate=5.1057, conversion_result=20.4228]
+may 21, 2024 12:49:34 A. M. com.alura.challenge.conversor.utilerias.EventLogger logEvent
+INFO: Converse[base_code=BRL, target_code=USD, conversion_rate=0.1959, conversion_result=0.7836]
+may 21, 2024 12:49:38 A. M. com.alura.challenge.conversor.utilerias.EventLogger logEvent
+INFO: Converse[base_code=USD, target_code=COP, conversion_rate=3835.3739, conversion_result=19176.8695]
+may 21, 2024 12:49:40 A. M. com.alura.challenge.conversor.utilerias.EventLogger logEvent
+INFO: Converse[base_code=COP, target_code=USD, conversion_rate=2.6073E-4, conversion_result=0.00156438]
